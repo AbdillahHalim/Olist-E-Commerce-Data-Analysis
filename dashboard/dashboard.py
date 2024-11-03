@@ -12,7 +12,7 @@ from folium.plugins import FastMarkerCluster
 st.set_page_config(page_title="E-comerce data analysis", page_icon=":bar_chart:", layout="wide")
 
 # title 
-st.title(":bar_chart: E-comerce data analysis")
+st.title(":bar_chart: E-comerce transaction analysis (2016 - 2018")
 st.markdown('<style>div.block-conutainer{padding-top:lrem;</style>',unsafe_allow_html=True)
 
 # import file
