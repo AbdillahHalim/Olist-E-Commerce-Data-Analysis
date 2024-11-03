@@ -16,7 +16,7 @@ st.title(":bar_chart: E-comerce data analysis")
 st.markdown('<style>div.block-conutainer{padding-top:lrem;</style>',unsafe_allow_html=True)
 
 # import file
-df = pd.read_csv("RfM_data.csv", encoding="utf-8") 
+df = pd.read_csv("dashboard/RfM_data.csv", encoding="utf-8") 
 
 
 
