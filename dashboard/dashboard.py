@@ -30,7 +30,7 @@ df2 = df.sort_values(by=['rfm_total'], ascending=False)
 # Display table
 st.subheader('High/Low value customer')
 options = st.selectbox(
-    label="Order by",
+    label="Order by RFM score",
     options=('Highest', 'Lowest')
 )
 # Choose order by highest/lowest
